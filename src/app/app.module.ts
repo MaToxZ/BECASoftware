@@ -6,11 +6,13 @@ import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 
 
 import { AppComponent } from './app.component';
+import { LoginComponent } from './navigation/login/login.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule, BrowserAnimationsModule, MatButtonModule, MatCheckboxModule
